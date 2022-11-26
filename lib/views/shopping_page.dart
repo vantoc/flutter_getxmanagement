@@ -4,8 +4,11 @@ import 'package:flutter_getxmanagement/controllers/shopping_controller.dart';
 import 'package:get/get.dart';
 
 class ShoppingPage extends StatelessWidget {
-  final shoppingController = Get.put(ShoppingController());
-  final cartController = Get.put(CartController());
+  // final shoppingController = Get.put(ShoppingController());
+  // final cartController = Get.put(CartController());
+
+  final shoppingController = Get.find<ShoppingController>();
+  final cartController = Get.find<CartController>();
 
   @override
   Widget build(BuildContext context) {
