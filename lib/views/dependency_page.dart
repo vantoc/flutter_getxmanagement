@@ -23,7 +23,7 @@ class DependencyInjectionPage extends StatelessWidget {
               ElevatedButton(
                   onPressed: () {
                     //// instance will created with tag
-                    Get.find<DependencyInjectController>()(tag: 'instance');
+                    //Get.find<DependencyInjectController>()(tag: 'instance');
 
                     Get.find<DependencyInjectController>();
 
